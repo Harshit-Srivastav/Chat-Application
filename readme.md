@@ -1,1 +1,12 @@
-The fileURLToPath function converts a file URL to a file system path, as you correctly noted. However, it returns the complete path including the filename. In many cases, we might only be interested in the directory portion of the path.This function is particularly useful when dealing with file URLs, such as when working with the import.meta.url property, which contains the URL of the current module file in ESM (ECMAScript Modules). When you need to convert such URLs to file system paths, fileURLToPath comes in handy.
+# Chat Application
+
+This is a simple chat application built with Node.js, Socket.IO, and HTML/CSS.
+
+## Features
+
+- Real-time messaging: Instantly send and receive messages.
+- Room-based chat: Create or join different chat rooms.
+- Change rooms: Switch between chat rooms while preserving message history.
+
+## Getting Started
+
