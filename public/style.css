@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9445aa40; /* Light gray background */
+}
+
+.chat-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #c9a0dc; /* White background for chat container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.chat-header {
+    color: purple;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center; /* Center align the header */
+    margin-bottom: 20px;
+}
+
+#chat-window {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9; /* Light gray background for chat window */
+}
+
+.message-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: calc(70% - 5px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+button {
+    width: 30%; /* Cover the remaining width */
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
